@@ -2,7 +2,9 @@
 
 <header class="header">
   
-  Add header here
+<%= link_to "Book now", new_reservation_path %>
+<%= link_to "Sign-in", new_user_path %>
+
 </header>
 </div>
 <section class="module parallax parallax-1">
@@ -15,7 +17,7 @@
   <div class="container">
     <h2>Bienvenidos!!</h2>
 
-    <p><%= link_to "Book now", new_reservation_path %></p>
+    <p><%= link_to "Book now", new_reservation_path, :class => "btn-group" %></p>
     <p> Majestic mountain vistas and a verdant, tranquil setting nestled among expansive, bounteous vineyards are yours to enjoy as guests of Finca Ogawa — our little corner of Valle de Uco, a place of ever-growing renown as one of the eight great wine-producing regions of the world.
 
 <p> Finca Ogawa is a 27-acre boutique resort and vineyard with an 80-year heritage as a working farm and orchard, well-located only about an hour’s drive south of the vibrant and lovely tree-lined streets of charming Mendoza City.
