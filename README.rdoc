@@ -1,28 +1,19 @@
-== README
+Brought to you by Paul Ogawa!!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rebuild of the family bed and breakfast website currently a wordpress website located here:
 
-Things you may want to cover:
+www.FincaOgawa.com
 
-* Ruby version
+Goals:
 
-* System dependencies
+Ability to book directly from the website
 
-* Configuration
+Adding Stipe API payment confirmation
 
-* Database creation
+Adding responsive design and capability to book from mobile/tablet
 
-* Database initialization
+Adding parallax scrolling to front page
 
-* How to run the test suite
+Adding calendar coordination with flipkey, airbnb, bookings.com bedandbreakfast.com
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Adding Google Analytics 
