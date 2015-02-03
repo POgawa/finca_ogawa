@@ -8,7 +8,38 @@
 </head>
 <body>
 
+	<div>
+
+  <header class="header">
+
+    <p>	
+    	<%= link_to "Home", root_path %>
+    </p>
+    <p>
+    	<%= link_to "Book now", new_reservation_path %>
+    </p>
+    <p>
+     <%if user_signed_in?%>
+		<span class="logged-in-as" align='right'>Logged in as <strong><%= current_user.email %></strong></span>
+		<%= link_to 'Edit profile', edit_user_registration_path %> |
+		<%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+	<%else%>
+		<%= link_to "Sign In or Sign Up", new_user_session_path %>
+	<%end%>
+    <p>
+    	<%= link_to "Units", units_path %>
+    </p>
+  </header>
+</div>
+
 <%= yield %>
 
+<br><br><br><br><br><br><br><br>
+
+<div class="container footer">
+	<div class="panel-footer" align='center'>
+		Made by ME.
+	</div>
+</div>
 </body>
 </html>
